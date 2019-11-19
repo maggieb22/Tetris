@@ -1,0 +1,16 @@
+Tetris README!!!
+
+Overview:
+	I made an app class, paneorganizer class, game class, piece class, square class, and a constants class. Game was a subclass of paneorganizer 
+	and square was a wrapper class that was used in my piece class. My paneorganizer handled where things were positioned on the screen, 
+	the game handler handled the logic, and the piece class had a lot of methods that were used in the game class to make sure the piece could move.
+	My square class had a lot of methods used in the piece class. All of these methods and the ways 
+	that these different classes interacted are specified in detail in my headers. 
+
+Design Choices:
+	For this project, I only decided to do one of the extra credit options.
+	I created a score that keeps track each time a row a removed. Each row removed
+	adds 100 points to the score.
+	
+Known Bugs:
+	No known bugs :)
